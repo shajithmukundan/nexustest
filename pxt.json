@@ -1,26 +1,20 @@
 {
-    "name": "NexusTest",
-    "description": "",
+    "name": "pxt-Nexusbit",
+    "version": "0.0.2",
+    "description": "Extension for Nexus:bit/NexusBot",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*",
-        "pxt-Nexusbit": "github:beyond-coding-tw/pxt-nexusbot#v0.0.2"
+        "pca9685": "github:jdarling/pxt-pca9685#3d08a2d73002bf8d3525894bb731bc8fe82f6673",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
     },
     "files": [
-        "main.blocks",
+        "README.md",
         "main.ts",
-        "README.md"
+        "_locales/zh-tw/pxt-Nexusbit-strings.json",
+        "_locales/zh-cn/pxt-Nexusbit-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "targetVersions": {
-        "target": "7.0.42",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    "public": true
 }
